@@ -1,4 +1,4 @@
-Space Bio: Cosmic Explorer 🚀
+
 An AI-Powered NASA Space Biology Knowledge Engine
 
 https://nasa-biology-app.vercel.app/
