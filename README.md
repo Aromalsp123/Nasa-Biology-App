@@ -1,188 +1,200 @@
-Space Bio: Cosmic Explorer 🚀
-An AI-Powered NASA Space Biology Knowledge Engine
+# **Space Bio: Cosmic Explorer 🚀**
 
-https://nasa-biology-app.vercel.app/
+### *AI-Powered NASA Space Biology Knowledge Engine*
 
-🌟 Overview
-Space Bio transforms NASA's space biology research into an interactive, AI-powered discovery experience. Explore 600+ NASA research papers through immersive 3D visualizations, intelligent search, and virtual experiments.
+---
 
-YOUTUBE LINK OF APP DEMO:
-https://youtu.be/F2xne_x9k28
+## 📸 **Project Images**
 
-🎯 Features
-🔭 Research Galaxy
-3D Interactive Star Map - Each star represents a NASA research paper
+### **NASA Space Apps Challenge**
 
-Color-Coded Domains - Human biology (🔴), Plant biology (🟢), Microbiology (🔵), Radiation (🟣), Technology (🟡)
 
-Constellation Connections - Visualize relationships between research areas
+![NASA Space Apps Poster](./Horizontal_Space_Apps_logo_background.png)
 
-Interactive Exploration - Click stars to explore paper details
 
-🤖 AI Co-Pilot
-Instant Research Answers - Ask complex space biology questions
+### **Project Screenshots**
 
-Semantic Search - Find relevant papers using AI-powered understanding
 
-Citation-Based Responses - Answers include references to source materials
+<p align="center">
+  <img src="./Screenshot 2025-11-08 090606.png" width="100%" />
+  <img src="./Screenshot 2025-11-08 090644.png" width="25%" />
+  <img src="./Screenshot 2025-11-08 090714.png" width="25%" />
+  <img src="./Screenshot 2025-11-08 090731.png" width="25%" />
+</p>
 
-Contextual Insights - Discover related research areas
 
-🧪 Virtual Lab
-Experiment Simulation - Model space biology experiments
 
-AI-Powered Predictions - Outcomes based on real NASA data patterns
+---
 
-Environmental Controls - Adjust gravity, radiation, nutrients, and more
+🔗 Live Web App: https://nasa-biology-app.vercel.app/
 
-Real-time Results - Instant feedback on experimental parameters
+## 🌟 **Overview**
 
-🧬 Additional Tools
-DNA Explorer - Visualize genetic changes in space environments
+Space Bio is an AI-powered platform that makes NASA’s space biology research interactive and immersive.
+It includes a 3D research galaxy, AI assistant, and virtual lab simulations based on NASA datasets.
 
-Health Dashboard - Monitor astronaut physiological metrics
+---
 
-Collaboration Hub - Team coordination and research sharing
+## 🔭 **Features**
 
-🚀 Quick Start
-🌐 Live Demo
-Visit the Live Application - Experience all features instantly
+### **1. Research Galaxy**
 
-💻 Local Development
-bash
-# Clone the repository
+* 3D interactive star map
+* Each star represents a NASA research paper
+* Color-coded biology domains
+* Relationship “constellation” visualization
+* Filters and search options
+
+---
+
+### **2. AI Co-Pilot**
+
+* Ask space biology questions
+* AI-powered semantic search
+* Citation-based replies
+* Contextual insights and related research
+
+---
+
+### **3. Virtual Lab**
+
+* Run simulations:
+
+  * Plant Growth
+  * Radiation Effects
+  * Microbiome
+* Adjustable parameters:
+
+  * Gravity
+  * Light
+  * CO₂
+  * Nutrients
+* Real-time predictions using NASA data patterns
+
+---
+
+### **4. Additional Tools**
+
+* DNA Explorer
+* Health Dashboard
+* Collaboration Hub
+
+---
+
+## 🎮 **How to Use**
+
+### **A. Research Galaxy**
+
+* Use mouse to rotate & zoom
+* Click stars to view paper info
+* Filter research categories
+* Search by author or topic
+
+### **B. AI Co-Pilot**
+
+* Enter any research question
+* Get answers with citations
+* Explore suggested related topics
+
+### **C. Virtual Lab**
+
+* Choose experiment type
+* Set environmental values
+* Click **Run Experiment**
+* View AI-generated predictions
+
+---
+
+## 🛠️ **Tech Stack**
+
+| Area         | Technologies                   |
+| ------------ | ------------------------------ |
+| Frontend     | Next.js 15, React, TypeScript  |
+| 3D           | Three.js, React Three Fiber    |
+| Styling      | Tailwind CSS, Framer Motion    |
+| AI/ML        | Custom LLMs, Vector Embeddings |
+| Deployment   | Vercel                         |
+| Data Sources | NASA PubSpace, NTRS, GeneLab   |
+
+---
+
+## 📊 **NASA Data Sources**
+
+* NASA PubSpace
+* NASA Technical Reports Server (NTRS)
+* NASA GeneLab
+* NASA Space Biology Program
+
+---
+
+## 💻 **Local Development**
+
+```bash
 git clone https://github.com/geofray7/Nasa-Biology-App.git
-
-# Navigate to project directory
 cd Nasa-Biology-App
-
-# Install dependencies
 npm install
-
-# Run development server
 npm run dev
+```
 
-# Open http://localhost:3000 in your browser
-🎮 How to Use
-Exploring Research (Research Galaxy)
-Navigate the 3D space using mouse/touch controls
+Open:
 
-Drag to rotate view
+```
+http://localhost:3000
+```
 
-Scroll to zoom in/out
+---
 
-Click stars to select papers
+## 🚀 **Production Build**
 
-Filter research by domain using the control panel
-
-Search for specific topics or authors
-
-Click any star to view detailed paper information
-
-Asking Questions (AI Co-Pilot)
-Type your space biology question in the chat interface
-
-Receive AI-generated answers with citations
-
-Explore related research suggestions
-
-Use follow-up questions for deeper exploration
-
-Running Experiments (Virtual Lab)
-Select experiment type: Plant Growth, Radiation Effects, or Microbiome
-
-Adjust environmental parameters:
-
-Gravity (Earth, Moon, Mars, Microgravity)
-
-Light intensity
-
-CO₂ levels
-
-Nutrient concentrations
-
-Experiment duration
-
-Click "Run Experiment" for AI-powered predictions
-
-Analyze results and recommendations
-
-🛠️ Technology Stack
-Frontend: Next.js 15, React, TypeScript
-
-3D Visualization: Three.js, React Three Fiber
-
-AI/ML: Custom language models, Vector embeddings
-
-Styling: Tailwind CSS, Framer Motion
-
-Deployment: Vercel
-
-Data: NASA PubSpace, NTRS, GeneLab APIs
-
-📊 NASA Data Sources
-NASA PubSpace: 600+ space biology research papers
-
-NASA Technical Reports Server (NTRS): Technical documentation
-
-NASA GeneLab: Omics data from space experiments
-
-NASA Space Biology Program: Mission research data
-
-
-🚀 Deployment
-Vercel Deployment
-The application is automatically deployed to Vercel:
-
-Live URL: https://nasa-biology-app.vercel.app
-
-Automatic deployments from main branch
-
-Optimized performance with Next.js 15
-
-Local Build
-bash
-# Production build
+```bash
 npm run build
-
-# Start production server
 npm start
-🤝 Contributing
-We welcome contributions! Please see our Contributing Guidelines for details.
+```
 
-Fork the repository
+---
 
-Create a feature branch (git checkout -b feature/amazing-feature)
+## 🤝 **Contributing**
 
-Commit your changes (git commit -m 'Add amazing feature')
+```bash
+# Create feature branch
+git checkout -b feature/my-feature
 
-Push to the branch (git push origin feature/amazing-feature)
+# Commit
+git commit -m "Add new feature"
 
-Open a Pull Request
+# Push
+git push origin feature/my-feature
+```
 
-📝 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+Open a PR ✅
 
-🙏 Acknowledgments
-NASA for making space biology research publicly available
+---
 
-The Space Apps Challenge community for inspiration
+## 📝 **License**
 
-Open source contributors for the amazing tools that power this project
+MIT License – see `LICENSE`
 
-📞 Support
-For support and questions:
+---
 
-🐛 Open an Issue
+## 🙏 **Acknowledgments**
 
-💬 Discussions: GitHub Discussions
+* NASA for open scientific data
+* NASA Space Apps Challenge inspiration
+* Open-source community
 
-Built with ❤️ for NASA Space Apps Challenge 2024
+---
 
-Exploring the final frontier of space biology research 🌌
+## 📬 **Support**
 
-Quick Links:
+* GitHub Issues
+* GitHub Discussions
 
-🚀 Live Demo
+---
 
-💻 Source Code
+## 🚀 *Built for NASA Space Apps Challenge 2025*
+
+### *Exploring the future of space biology research.*
+
+
+
+Just tell me!
